@@ -1,3 +1,4 @@
 {
+  "moduleId": "jquery-form-render",
   "presets": ["es2015", "stage-0"]
 }

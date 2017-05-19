@@ -11,7 +11,6 @@ export default {
     filename: 'app.js',
     publicPath: '/assets'
   },
-  // resolve: '',
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
     new webpack.ProvidePlugin({$: 'jquery', jQuery: 'jquery', 'window.jQuery': 'jquery'}),
