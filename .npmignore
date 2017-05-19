@@ -1,3 +1,8 @@
 node_modules/
 .gitignore
+.atomignore
+.babelrc
+.eslintrc
+*.js
+npm-debug.log
 demo/
