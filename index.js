@@ -1,0 +1,6 @@
+export Form from './src/form'
+export BaseInput from './src/components/base'
+export TextInput from './src/components/text'
+export Checkbox from './src/components/check'
+export SelectInput from './src/components/select'
+export TextareaInput from './src/components/textarea'
