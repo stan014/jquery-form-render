@@ -1,12 +1,12 @@
 {
   "name": "jquery-form-render",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A library to build web form, and manage easily",
   "scripts": {
     "dev": "babel-node devServer.js",
     "build": "npm run clean && webpack --config ./webpack.config.babel.js",
     "clean": "rm -rf output/assets",
-    "publish": "rm -rf dist && webpack --config ./webpack.config.publish.babel.js"
+    "prod": "rm -rf dist && webpack --config ./webpack.config.publish.babel.js"
   },
   "author": "stan014 <stan014@gmail.com>",
   "license": "ISC",
